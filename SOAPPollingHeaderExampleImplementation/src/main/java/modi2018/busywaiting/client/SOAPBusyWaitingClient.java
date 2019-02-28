@@ -1,8 +1,8 @@
-package modi2018.soapcallback.client;
+package modi2018.busywaiting.client;
 
 import java.net.URL;
 
-public class SOAPCallbackClient {
+public class SOAPBusyWaitingClient {
 
     public static void main(String[] args) {
         

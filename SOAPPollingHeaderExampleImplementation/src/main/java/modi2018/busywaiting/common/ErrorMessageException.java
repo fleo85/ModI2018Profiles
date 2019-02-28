@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modi2018.soapcallback;
+package modi2018.busywaiting.common;
 
 import javax.xml.ws.WebFault;
 

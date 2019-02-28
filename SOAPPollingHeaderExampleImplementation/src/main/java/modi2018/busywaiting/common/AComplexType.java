@@ -1,4 +1,4 @@
-package modi2018.soapcallback;
+package modi2018.busywaiting.common;
 
 import java.io.Serializable;
 import java.util.LinkedList;

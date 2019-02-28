@@ -1,4 +1,4 @@
-package modi2018.soapcallback.server;
+package modi2018.busywaiting.server;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,13 +9,13 @@ import javax.xml.ws.Holder;
 import javax.xml.ws.WebServiceContext;
 import javax.xml.ws.handler.MessageContext;
 
-import modi2018.soapcallback.MType;
-import modi2018.soapcallback.ACKMessage;
-import modi2018.soapcallback.ErrorMessageException;
-import modi2018.soapcallback.ProcessingStatus;
-import modi2018.soapcallback.MResponseType;
+import modi2018.busywaiting.common.MType;
+import modi2018.busywaiting.common.ACKMessage;
+import modi2018.busywaiting.common.ErrorMessageException;
+import modi2018.busywaiting.common.ProcessingStatus;
+import modi2018.busywaiting.common.MResponseType;
 
-public class SOAPCallbackImpl implements SOAPCallback {
+public class SOAPBusyWaitingImpl implements SOAPBusyWaiting {
     @Resource
     private WebServiceContext webServiceContext;
     

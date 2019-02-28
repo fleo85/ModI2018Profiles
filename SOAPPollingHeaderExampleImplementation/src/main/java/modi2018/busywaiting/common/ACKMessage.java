@@ -1,4 +1,4 @@
-package modi2018.soapcallback;
+package modi2018.busywaiting.common;
 
 public class ACKMessage {
 	public ACKMessage() {}

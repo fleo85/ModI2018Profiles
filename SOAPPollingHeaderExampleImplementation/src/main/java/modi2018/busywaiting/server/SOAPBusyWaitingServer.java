@@ -1,14 +1,14 @@
-package modi2018.soapcallback.server;
+package modi2018.busywaiting.server;
 
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 
-public class SOAPCallbackServer {
+public class SOAPBusyWaitingServer {
 
     public static void main(String args[]) throws InterruptedException {
-        SOAPCallbackImpl implementor = new SOAPCallbackImpl();
+        SOAPBusyWaitingImpl implementor = new SOAPBusyWaitingImpl();
         String address = "http://localhost:8080/soap/nomeinterfacciaservizio/v1";
         JaxWsServerFactoryBean factory = new JaxWsServerFactoryBean();
-        factory.setServiceClass(SOAPCallback.class);
+        factory.setServiceClass(SOAPBusyWaiting.class);
         factory.setAddress(address);
         factory.setServiceBean(implementor);
         factory.create();
